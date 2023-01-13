@@ -70,10 +70,10 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "notes"
+  folderName = "files"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["hugo.txt", "/post/hugo"]
+    ["notes", "/post"]
     ]
 
 [module]
