@@ -36,10 +36,10 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
-  pcName = "laptop"
-  workDir = "mydir"
-  profile = "profile.txt"
+  userName = "sky"
+  pcName = "skynet"
+  workDir = "What_I_Have_Done"
+  profile = "profile.md"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -62,11 +62,10 @@ ignoreErrors = ["error-remote-getjson"]
 
   # activityDelay = 5 : deprecated
 
-  description = """
-  Hi I am Jane Doe!
-  Nice to meet you!
-  
-  """
+  description = "/description.md"
+ # Hi I am Skyler!
+ # I am a Web Developer / Twitch Streamer / Scripter.
+ # """
 
   # Note: If you want to use a Markdown file, you can use the following
   # description = "/description.md"
@@ -74,15 +73,11 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "my_activity"
+  folderName = "stuff"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
-  ]
+    ["hugo.txt", "/post/hugo"]
+    ]
 
 [module]
   [module.hugoVersion]
