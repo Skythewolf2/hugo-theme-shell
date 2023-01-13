@@ -38,7 +38,7 @@ ignoreErrors = ["error-remote-getjson"]
   # Note: result of the tree command
   userName = "sky"
   pcName = "skynet"
-  workDir = "What_I_Have_Done"
+  workDir = "personal"
   profile = "profile.md"
 
   # Note: speed at which text is displayed on the terminal
@@ -63,9 +63,6 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = "/description.md"
- # Hi I am Skyler!
- # I am a Web Developer / Twitch Streamer / Scripter.
- # """
 
   # Note: If you want to use a Markdown file, you can use the following
   # description = "/description.md"
@@ -73,7 +70,7 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "stuff"
+  folderName = "notes"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["hugo.txt", "/post/hugo"]
